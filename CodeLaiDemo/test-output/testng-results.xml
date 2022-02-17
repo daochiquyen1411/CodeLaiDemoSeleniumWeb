@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-07T19:13:56 ICT" name="Default suite" finished-at="2021-10-07T19:14:14 ICT" duration-ms="18228">
+    <groups>
+    </groups>
+    <test started-at="2021-10-07T19:13:56 ICT" name="Default test" finished-at="2021-10-07T19:14:14 ICT" duration-ms="18228">
+      <class name="test.OverViewPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OverViewPageTest@2bfc268b]" started-at="2021-10-07T19:13:56 ICT" name="setUp" finished-at="2021-10-07T19:14:00 ICT" duration-ms="4262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OverViewPageDisplaySuccessfully(java.lang.String,java.lang.String)[pri:0, instance:test.OverViewPageTest@2bfc268b]" started-at="2021-10-07T19:14:00 ICT" name="OverViewPageDisplaySuccessfully" data-provider="AccountTestData" finished-at="2021-10-07T19:14:03 ICT" duration-ms="3001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverViewPageDisplaySuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OverViewPageTest@2bfc268b]" started-at="2021-10-07T19:14:03 ICT" name="tearDown" finished-at="2021-10-07T19:14:03 ICT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.OverViewPageTest@2bfc268b]" started-at="2021-10-07T19:14:03 ICT" name="setUp" finished-at="2021-10-07T19:14:06 ICT" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OverViewPageDisplaySuccessfully(java.lang.String,java.lang.String)[pri:0, instance:test.OverViewPageTest@2bfc268b]" started-at="2021-10-07T19:14:06 ICT" name="OverViewPageDisplaySuccessfully" data-provider="AccountTestData" finished-at="2021-10-07T19:14:14 ICT" duration-ms="8007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverViewPageDisplaySuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OverViewPageTest@2bfc268b]" started-at="2021-10-07T19:14:14 ICT" name="tearDown" finished-at="2021-10-07T19:14:14 ICT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.OverViewPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
